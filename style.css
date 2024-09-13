@@ -1,0 +1,128 @@
+* {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background: url(fonn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav_logo {
+    width: 60px;
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+ul :hover {
+    color: #F57520;
+
+}
+
+.img_ {
+
+    width: 60px;
+    height: 40px;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+.head {
+    margin-left: 150px;
+    line-height: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F57520;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.head {
+    margin-top: 15vh;
+}
+
+.karopka {
+    background-color: #F57520;
+    width: 600px;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 450px;
+}
+
+.mm {
+    background-color: black;
+    width: 270px;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.box {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.lll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item1 {
+    width: 200px;
+}
